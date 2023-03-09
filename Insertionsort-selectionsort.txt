@@ -1,0 +1,17 @@
+[22,27,16,2,18,6] -> Insertion Sort
+
+[22, 27, 16, 2, 18, 6] -> ilk eleman zaten sıralı
+[16, 22, 27, 2, 18, 6] -> 16, 22'nin önünde olması gerektiği için 22 ile yer değiştirildi.
+[2, 16, 22, 27, 18, 6] -> 2, 16 ve 22'nin önünde olması gerektiği için 16 ve 22 önceki konumlarından sağa kaydırıldı.
+[2, 16, 18, 22, 27, 6] -> 18, 22 ve 27'nin önünde olması gerektiği için 22 ve 27 önceki konumlarından sağa kaydırıldı.
+[2, 6, 16, 18, 22, 27] -> Son eleman zaten sıralı
+Big-O gösterimi: O(n^2)
+
+Time Complexity: 18 sayısı dizi içinde 4. elemandır, yani Average case kapsamına girer.
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımı:
+
+[2, 3, 5, 8, 7, 9, 4, 15, 6] -> Minimum eleman 2 olduğu için ilk elemanla yer değiştirildi.
+[2, 3, 4, 8, 7, 9, 5, 15, 6] -> Minimum eleman 4 olduğu için 2. elemanla yer değiştirildi.
+[2, 3, 4, 5, 7, 9, 8, 15, 6] -> Minimum eleman 5 olduğu için 3. elemanla yer değiştirildi.
+[2, 3, 4, 5, 6, 9, 8, 15, 7] -> Minimum eleman 6 olduğu için 5. elemanla yer değiştirildi.
